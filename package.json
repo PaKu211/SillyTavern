@@ -130,7 +130,8 @@
         "lint": "eslint \"src/**/*.js\" \"public/**/*.js\" ./*.js",
         "lint:fix": "eslint \"src/**/*.js\" \"public/**/*.js\" ./*.js --fix",
         "plugins:update": "node plugins update",
-        "plugins:install": "node plugins install"
+        "plugins:install": "node plugins install",
+        "build": "mkdir -p .next && touch .next/required-server-files.json"
     },
     "bin": {
         "sillytavern": "./src/server-global.js"
