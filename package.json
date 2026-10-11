@@ -1,5 +1,7 @@
 {
     "dependencies": {
+        "astro": "^4.0.0",
+        "@astrojs/node": "^8.0.0"
         "@adobe/css-tools": "^4.4.4",
         "@agnai/sentencepiece-js": "^1.1.1",
         "@agnai/web-tokenizers": "^0.1.3",
